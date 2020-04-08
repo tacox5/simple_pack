@@ -4,4 +4,7 @@ setup(
     name="simple_pack",
     version="0.1",
     packages=find_packages(),
+    install_requires=[
+        'nbsphinx'
+    ]
 )
